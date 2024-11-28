@@ -1,0 +1,8 @@
+//README BEFORE SETUP
+
+The Project has been developed in react.js
+
+To Run the project locally:  
+1. Navigate the directory: cd ./UIU-CSE-FEST-2025-main 
+2. Run npm install or sudo npm install (if there is permission issues)
+3. Run npm run dev to run the server at localhost
