@@ -48,8 +48,12 @@ const Hero = () => {
             className="absolute w-[80%] opacity-90 object-cover"
             alt=""
           />
-          <ComputerCanvas />
-
+          {/* <ComputerCanvas /> */}
+          <img 
+  src="img/retrpc.png" 
+  className="absolute w-20 sm:w-20 md:w-48 lg:w-56 xl:w-72 animate-float" 
+  alt="" 
+/>
           {/* Button */}
           <div className="absolute bottom-20">
             <button
