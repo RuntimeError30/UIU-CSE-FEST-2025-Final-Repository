@@ -265,7 +265,7 @@ const Gratitude = () => {
                 name="Shudipto Das"
                 link={`https://www.facebook.com/shudipto.das.98`}
                 role="Media & Communication Member"
-                subRole="General Secretary,UIU Computer Club"
+                subRole="General Secretary, UIU Computer Club"
                 imageSrc="/img/shudipto.jpg"
               />
             </div>
@@ -299,7 +299,7 @@ const Gratitude = () => {
                 name="Samiul Haque Rudra"
                 link={`https://www.facebook.com/rudra.96824`}
                 role="Outreach and Engagement Lead"
-                subRole="President,UIU Computer Club"
+                subRole="President, UIU Computer Club"
                 imageSrc="/img/samiul.jpg"
               />
             </div>
@@ -326,7 +326,7 @@ const Gratitude = () => {
                 name="Md.Naimur Rahman"
                 link={`https://www.facebook.com/mdnaimurrahman.navil?mibextid=ZbWKwL`}
                 role="Outreach and Engagement Member"
-                subRole="Head of R & D, Programing wing,UIU Computer Club"
+                subRole="Head of R & D, Programing wing, UIU Computer Club"
                 imageSrc="/img/naimur3.jpg"
               />
             </div>
