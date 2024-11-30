@@ -1,9 +1,9 @@
-import gsap from "gsap";
-import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { FiMenu, FiX } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import gsap from "gsap";
+import { useWindowScroll } from "react-use";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -13,8 +13,9 @@ const Navbar = () => {
 
   const navContainerRef = useRef(null);
   const navItems = ["About", "Events", "Announcements"];
-
   const { y: currentScrollY } = useWindowScroll();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!navContainerRef.current) return;
@@ -42,6 +43,29 @@ const Navbar = () => {
       duration: 0.2,
     });
   }, [isNavVisible]);
+
+  // Scroll to section if hash exists in the URL
+  useEffect(() => {
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
+  const handleNavigation = (hash) => {
+    if (location.pathname !== "/") {
+      // Navigate to the homepage with hash
+      navigate(`/${hash}`);
+    } else {
+      // Scroll to the section directly
+      const target = document.querySelector(hash);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   return (
     <div
@@ -77,13 +101,13 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             {navItems.map((item, index) => (
-              <a
+              <button
                 key={index}
-                href={`#${item.toLowerCase()}`}
-                className="nav-hover-btn"
+                onClick={() => handleNavigation(`#${item.toLowerCase()}`)}
+                className="nav-hover-btn text-white"
               >
                 {item}
-              </a>
+              </button>
             ))}
           </div>
         </nav>
@@ -94,13 +118,15 @@ const Navbar = () => {
             <ul className="flex flex-col items-center space-y-4 py-4">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
+                  <button
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      handleNavigation(`#${item.toLowerCase()}`);
+                    }}
                     className="text-black text-sm font-semibold hover:text-blue-600"
-                    onClick={() => setIsMenuOpen(false)}
                   >
                     {item}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
