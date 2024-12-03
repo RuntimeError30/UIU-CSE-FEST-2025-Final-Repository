@@ -38,7 +38,7 @@ const Iupc = () => {
 
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Fee</h2>
-          <p className="text-xl font-bold text-orange-500 mt-2">7000 BDT</p>
+          <p className="text-xl font-bold text-orange-500 mt-2">5000 BDT</p>
         </section>
 
         <section className="mb-8">
