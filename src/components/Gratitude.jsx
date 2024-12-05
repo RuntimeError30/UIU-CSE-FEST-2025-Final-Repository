@@ -95,7 +95,7 @@ const Gratitude = () => {
           Meet Our Amazing Team
         </h1>
         <p className="font-robert-regular text-xl text-center mb-12 text-gray-300">
-          The talented individuals behind UIU CSE FEST 2025&apos;s success
+          The talented individuals behind UIU CSE FEST 2025
         </p>
 
         <section className="mb-16">
@@ -293,7 +293,7 @@ const Gratitude = () => {
         </section>
         <section className="mb-16">
           <h2 className="font-zentry text-3xl font-bold text-center mb-8 text-orange-500">Outreach and Engagement Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5  gap-8">
             <div ref={(el) => (sections.current[15] = el)}>
               <TeamMember
                 name="Samiul Haque Rudra"
@@ -358,6 +358,24 @@ const Gratitude = () => {
                 role="Outreach and Engagement Member"
                 subRole="Asst. General Secretary, UIU Robotics Club"
                 imageSrc="/img/fahad.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[22] = el)}>
+              <TeamMember
+                name="Anjuman Malek Tuba"
+                link={`https://www.facebook.com/anjuman.tuba.3/`}
+                role="Outreach and Engagement Member"
+                subRole="Vice-President, UIU Computer Club"
+                imageSrc="/img/tuba.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[23] = el)}>
+              <TeamMember
+                name="Maisha Maliha Neha"
+                link={`https://www.facebook.com/jayanrahmanazan.azan/`}
+                role="Outreach and Engagement Member"
+                subRole="Treasurer, UIU Computer Club"
+                imageSrc="/img/neha.jpg"
               />
             </div>
           </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navContainerRef = useRef(null);
-  const navItems = ["About", "Events", "Announcements"];
+  const navItems = ["About", "Announcements"];
   const { y: currentScrollY } = useWindowScroll();
   const location = useLocation();
   const navigate = useNavigate();
@@ -79,9 +79,9 @@ const Navbar = () => {
             <Link to="/">
               <img src="/img/logo.png" className="w-16" alt="Site Logo" />
             </Link>
-            <Link to="/gratitude">
+            <Link to="/#events">
               <Button
-                title="Gratitude"
+                title="Events"
                 leftIcon={<TiLocationArrow />}
                 containerClass="bg-white flex px-3 py-3 rounded-full text-black text-xs md:text-xs items-center"
               />
@@ -109,6 +109,12 @@ const Navbar = () => {
                 {item}
               </button>
             ))}
+            <button
+              onClick={() => navigate("/gratitude")} 
+              className="nav-hover-btn text-white"
+            >
+              Gratitude
+            </button>
           </div>
         </nav>
 
@@ -129,6 +135,17 @@ const Navbar = () => {
                   </button>
                 </li>
               ))}
+              <li>
+                <button
+                  onClick={() => {
+                    setIsMenuOpen(false);
+                    navigate("/gratitude");
+                  }}
+                  className="text-black text-sm font-semibold hover:text-blue-600"
+                >
+                  Gratitude
+                </button>
+              </li>
             </ul>
           </div>
         )}
