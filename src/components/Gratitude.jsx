@@ -185,7 +185,7 @@ const Gratitude = () => {
 
         <section className="mb-16">
           <h2 className=" font-zentry text-3xl font-bold text-center mb-8 text-orange-500">Web Developers</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div ref={(el) => (sections.current[7] = el)}>
               <TeamMember
                 name="Mohammad Darain Khan"
@@ -211,6 +211,15 @@ const Gratitude = () => {
                 role="Fullstack Developer"
                 subRole="Head of Programming Wing, UIU Computer Club"
                 imageSrc="/img/fatin.jpeg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[24] = el)}>
+              <TeamMember
+                name="Naeem Abdullah Sadik"
+                link={`https://github.com/naeemsadik`}
+                role="Frontend Developer"
+                subRole="Head, Development Wing, Programming Department, UIU Computer Club"
+                imageSrc="/img/sadik.jpg"
               />
             </div>
           </div>
