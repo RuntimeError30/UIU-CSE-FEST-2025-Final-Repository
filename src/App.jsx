@@ -16,12 +16,14 @@ import ProjectShow from './components/ProjectShow';
 import Lfr from './components/Lfr';
 import Soccorbot from './components/Soccorbot';
 import Gratitude from './components/Gratitude';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar /> {/* Keep Navbar for general layout */}
       
       <Routes>

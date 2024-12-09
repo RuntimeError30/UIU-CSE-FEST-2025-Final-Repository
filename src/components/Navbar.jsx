@@ -113,7 +113,7 @@ const Navbar = () => {
               onClick={() => navigate("/gratitude")} 
               className="nav-hover-btn text-white"
             >
-              Gratitude
+              Our Team
             </button>
           </div>
         </nav>
@@ -143,7 +143,7 @@ const Navbar = () => {
                   }}
                   className="text-black text-sm font-semibold hover:text-blue-600"
                 >
-                  Gratitude
+                  Our Team
                 </button>
               </li>
             </ul>
