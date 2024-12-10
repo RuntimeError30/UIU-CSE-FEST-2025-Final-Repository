@@ -11,8 +11,19 @@ body {
   font-family: "General Sans", sans-serif;
 }
 ::-webkit-scrollbar{
-  display: none;
+  width: 8px;
 }
+::-webkit-scrollbar-track{
+  background: #000;
+}
+::-webkit-scrollbar-thumb{
+  background: #ff4701;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #fa4700fa;
+}
+
 html{
   scroll-behavior: smooth;
 }
