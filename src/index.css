@@ -10,18 +10,22 @@ body {
   background-color: #ffffff;
   font-family: "General Sans", sans-serif;
 }
-::-webkit-scrollbar{
-  width: 8px;
+::-webkit-scrollbar {
+  height: 0.5px;
+  width: 3.5px; 
 }
-::-webkit-scrollbar-track{
-  background: #000;
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0); 
 }
-::-webkit-scrollbar-thumb{
-  background: #ff4701;
+
+::-webkit-scrollbar-thumb {
+  background: rgba(250, 71, 0, 0.1); 
   border-radius: 4px;
 }
-::-webkit-scrollbar-thumb:hover{
-  background: #fa4700fa;
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(250, 71, 0, 0.9); 
 }
 
 html{

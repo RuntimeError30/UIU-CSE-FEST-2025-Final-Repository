@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export const Footer = () => {
   return (
@@ -33,10 +33,10 @@ export const Footer = () => {
             </a>
             , Email:{" "}
             <a
-              href="mailto:info@uiu.ac.bd"
+              href="csefest@uiu.ac.bd"
               className="underline hover:text-black"
             >
-              info@uiu.ac.bd
+              csefest@uiu.ac.bd
             </a>
           </p>
         </div>

@@ -17,7 +17,7 @@ import Lfr from './components/Lfr';
 import Soccorbot from './components/Soccorbot';
 import Gratitude from './components/Gratitude';
 import ScrollToTop from './components/ScrollToTop';
-
+import FAQ from './components/FAQ'
 
 
 const App = () => {
@@ -37,6 +37,7 @@ const App = () => {
               <Events /> {/* This will handle routing via buttons */}
               <Announcements />
               <Organizers />
+              <FAQ/>
               <Footer />
             </main>
           }

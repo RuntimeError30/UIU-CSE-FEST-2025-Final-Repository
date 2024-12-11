@@ -139,8 +139,8 @@ const Lfr = () => {
               <span className="font-semibold">Strengthen Technical Knowledge:</span> Building and programming an autonomous robot allows students to gain deeper technical expertise in sensor integration, algorithm design, and hardware management.
 
             </li>
-           
-            
+
+
           </ul>
         </section>
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
@@ -148,7 +148,8 @@ const Lfr = () => {
           <p className="text-gray-700 mt-4">
             <strong>Fahad Rahman</strong><br />
             Secretary of Event, UIU Robotics Club<br />
-            <a href="mailto:frahman203014@bscse.uiu.ac.bd" className="text-orange-500">frahman203014@bscse.uiu.ac.bd</a>
+            <a href="mailto:frahman203014@bscse.uiu.ac.bd" className="text-orange-500">frahman203014@bscse.uiu.ac.bd</a><br />
+            <strong>Contact:</strong> 01752-619212
           </p>
 
           <p className="mt-6">
