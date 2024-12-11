@@ -46,7 +46,7 @@ const FAQ = () => {
                                 className="flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleFAQ(index)}
                             >
-                                <h2 className="text-xl font-robert-regular font-medium text-white">{faq.question}</h2>
+                                <h2 className=" text-sm md:text-xl  font-medium text-white">{faq.question}</h2>
                                 <span
                                     className={`transition-transform ${
                                         openIndex === index ? "rotate-180" : "rotate-0"
@@ -56,7 +56,7 @@ const FAQ = () => {
                                 </span>
                             </div>
                             {openIndex === index && (
-                                <div className="mt-2 font-robert-regular text-slate-400">
+                                <div className="text-sm mt-2 font-robert-regular text-slate-400">
                                     <p>{faq.answer}</p>
                                 </div>
                             )}
