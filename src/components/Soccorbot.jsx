@@ -1,4 +1,6 @@
-
+import Button from "./Button";
+import { TiLocationArrow } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Soccorbot = () => {
   return (
@@ -36,6 +38,17 @@ const Soccorbot = () => {
             <li><strong>Team Formation:</strong>  Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
             </li>
           </ul>
+
+
+          <div>
+            <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/ROBO" target="blank">
+              <Button
+                title="Register Now"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+              />
+            </Link>
+          </div>
         </section>
 
         <section className="mb-8">
@@ -132,7 +145,8 @@ const Soccorbot = () => {
           <p className="text-gray-700 mt-4">
             <strong>Fahad Rahman</strong><br />
             Secretary of Event, UIU Robotics Club<br />
-            <a href="mailto:frahman203014@bscse.uiu.ac.bd" className="text-orange-500">frahman203014@bscse.uiu.ac.bd</a>
+            <a href="mailto:frahman203014@bscse.uiu.ac.bd" className="text-orange-500">frahman203014@bscse.uiu.ac.bd</a><br />
+            <strong>Contact:</strong> 01752-619212
           </p>
 
           <p className="mt-6">

@@ -1,4 +1,6 @@
-
+import Button from "./Button";
+import { TiLocationArrow } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Lfr = () => {
   return (
@@ -35,6 +37,15 @@ const Lfr = () => {
             <li><strong>Team Formation:</strong> Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
             </li>
           </ul>
+          <div>
+            <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/LRF" target="blank">
+              <Button
+                title="Register Now"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+              />
+            </Link>
+          </div>
         </section>
 
         <section className="mb-8">

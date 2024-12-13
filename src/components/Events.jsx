@@ -59,7 +59,7 @@ const BentoCard = ({ src, title, description, category, eventLink }) => {
                             {description}
                         </p>
                         <p className="mt-3 text-orange-500">
-                            Registration will be open soon
+                            Registration is Open Now
                         </p>
                     </div>
                 )}

@@ -1,4 +1,6 @@
-
+import Button from "./Button";
+import { TiLocationArrow } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Iupc = () => {
   return (
@@ -65,7 +67,13 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
 
-          <h1 >Portal will be open Soon</h1>
+            <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/IUPC" target="blank">
+              <Button
+                title="Register Now"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+              />
+            </Link>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">

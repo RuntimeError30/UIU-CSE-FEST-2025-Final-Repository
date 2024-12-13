@@ -17,15 +17,36 @@ const Announcements = () => {
       date: 'December 11, 2024',
       details: `Be the face of one of the most exciting tech fests of the year! As a Campus Ambassador, you’ll represent UIU CSE FEST 2025, promote the event on your campus, and help recruit participants, teams, and volunteers.
 
-Who Can Apply?
-1. Students with strong communication and networking skills.
-2. Passionate about technology and event promotion.
-3. Dedicated and proactive individuals.
+      Who Can Apply?
+      1. Students with strong communication and networking skills.
+      2. Passionate about technology and event promotion.
+      3. Dedicated and proactive individuals.
 
       **Apply Now**: Deadline: December 16, 2024.`,
       link: 'https://docs.google.com/forms/d/e/1FAIpQLSfMzuLq-qpOv_pUSlrqTpVbXPIyKAnIHgxN0-oheUMFUq8-bA/viewform?fbclid=IwY2xjawHGqSlleHRuA2FlbQIxMAABHVmdd01B2lgbVxwaCz2eKuxeGjHxdzYJVOfqiBHqWw3b3Fr4B8GZZNxxug_aem_HmB5gyWTgWc-pWpmGizjfw',
     },
+    {
+      id: 3,
+      title: 'UIU CSE Fest 2025: Registration Portal Now Open! ',
+      date: 'December 13, 2024',
+      details: `We are thrilled to announce that the registration portal is officially live!
+      Get ready to dive into a world of innovation, technology, and competition as we bring you six exhilarating events, designed to challenge and inspire students from colleges and universities across the nation. Go to the events section to Register.`,
+      link: ' ',
+    },
+    {
+      id: 4,
+      title: 'Complete Your Team Details Anytime with Saved Drafts! ',
+      date: 'December 13, 2024',
+      details: `After signing up for the team, you will receive an email with a link. You can use this link to fill out the rest of the information. You can either complete it immediately or return later to finish the form. Any information you enter will be saved as a draft on the page, so you can easily come back and edit or submit it later.`,
+      link: ' ',
+    },
+  ];
 
+  const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 4),
+    announcements.find((announcement) => announcement.id === 3),
+    announcements.find((announcement) => announcement.id === 2),
+    announcements.find((announcement) => announcement.id === 1),
   ];
 
   const toggleDropdown = (index) => {
@@ -35,12 +56,12 @@ Who Can Apply?
   return (
     <div id="announcements" className="w-full px-10 mt-40 min-h-screen font-robert-regular">
       <div className="text-start">
-      <h1 className='font-general text-xs mb-3'>uiu cse fest 2025</h1>
+        <h1 className='font-general text-xs mb-3'>uiu cse fest 2025</h1>
         <h1 className="bento-title special-font text-4xl">Announcements</h1>
       </div>
 
       <div className="mt-20 space-y-6">
-        {announcements.map((announcement, index) => (
+        {reorderedAnnouncements.map((announcement, index) => (
           <div
             key={announcement.id}
             className="p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-all border border-transparent hover:border-[#ff4701]"
@@ -62,14 +83,16 @@ Who Can Apply?
               {activeIndex === index && (
                 <>
                   <p className="text-sm text-gray-700 whitespace-pre-line">{announcement.details}</p>
-                  <a
-                    href={announcement.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#ff4701] hover:text-[#e64001] text-sm underline"
-                  >
-                    Learn More
-                  </a>
+                  {announcement.id !== 3 && announcement.id !== 4 && (
+                    <a
+                      href={announcement.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#ff4701] hover:text-[#e64001] text-sm underline"
+                    >
+                      Learn More
+                    </a>
+                  )}
                 </>
               )}
             </div>
