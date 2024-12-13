@@ -51,6 +51,12 @@ const Blockchain = () => {
             <li><strong>Team Composition:</strong> Each team must consist of 3 - 5 eligible members. An individual may only participate in one team. Students from different institutions are allowed to form a team together.</li>
             <li><strong>Project Registration and Submission:</strong> One Team, One Project. Each team may submit only one project.</li>
             <li><strong>Primary Evaluation:</strong> Based on the submitted white paper.</li>
+            <li><span className="text-orange-500 font-bold">Please submit a white paper detailing your project, adhering to the following guidelines:</span> <br />
+                <span className="font-bold">Page Limit:</span> Maximum of 20 pages. <br />
+                <span className="font-bold">Format:</span> Submit the document in PDF format only. <br />
+                <spac className="font-bold">Content:</spac> The white paper should include comprehensive details of your project, including objectives, methodology, expected outcomes and potential impact. <br />
+                This white paper will serve as the primary basis for the initial evaluation of your project. <br />
+            </li>
             <li><strong>Final Evaluation:</strong> Finalists will submit a whitepaper, poster, pitch deck, presentation video, and prototype (optional).</li>
           </ul>
         </section>
