@@ -9,7 +9,7 @@ import Organizers from './components/Organizers';
 import Announcements from './components/Announcements';
 import { Footer } from './components/Footer';
 
-import Iupc from '../src/components/ Iupc';
+import Iupc from '../src/components/Iupc';
 import Blockchain from './components/Blockchain';
 import ICTolym from './components/ICTolym';
 import ProjectShow from './components/ProjectShow';
