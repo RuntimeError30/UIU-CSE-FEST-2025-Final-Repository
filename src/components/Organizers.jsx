@@ -5,7 +5,7 @@ const Organizers = () => {
     <div className="w-full pt-20 grid justify-center items-center bg-black text-blue-50 p-6 pb-40">
       {/* Title Section */}
       <h1 className="font-general text-xs sm:text-sm md:text-xs lg:text-xs text-center">
-        UIU CSE FEST
+        UIU CSE FEST 2025
       </h1>
       <h1 className="bento-title special-font text-4xl sm:text-2xl md:text-3xl lg:text-4xl text-center mt-2">
         <b>E</b>vent <b>O</b>rganizers
