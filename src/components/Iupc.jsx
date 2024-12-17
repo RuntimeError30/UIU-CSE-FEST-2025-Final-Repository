@@ -12,7 +12,7 @@ const Iupc = () => {
           </h1>
           <p className="text-lg font-robert-medium text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Last Registration: Dec. 20, 2024
+            Last Registration: Dec. 28, 2024
           </p>
         </header>
 

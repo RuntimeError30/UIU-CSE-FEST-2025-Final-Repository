@@ -15,7 +15,7 @@ const Lfr = () => {
           </p>
 
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: 27 December, 2024
+            Registration Deadline: 5th January, 2025
           </p>
         </header>
 

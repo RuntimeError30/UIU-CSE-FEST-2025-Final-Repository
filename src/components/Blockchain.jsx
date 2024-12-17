@@ -37,7 +37,7 @@ const Blockchain = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Key Deadlines</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li>White Paper Submission: December 20, 2024</li>
+            <li>White Paper Submission: December 28, 2024</li>
             <li>Finalist Announcement (Top 30 Teams): December 30, 2024</li>
             <li>Last Date for Registration Payment: January 05, 2024</li>
             <li>Final Submissions (Whitepaper, Pitch Deck, Presentation Video, Prototype): January 10, 2024</li>

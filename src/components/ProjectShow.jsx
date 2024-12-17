@@ -12,7 +12,7 @@ const ProjectShow = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University Students and Recent Graduates</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: 20 December, 2024
+            Registration Deadline: 28 December, 2024
           </p>
         </header>
 
