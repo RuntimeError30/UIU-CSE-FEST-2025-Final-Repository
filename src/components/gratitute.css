@@ -1,0 +1,16 @@
+
+.scrollbar-track {
+    background-color: #000000;
+  }
+  
+  
+  .scrollbar-thumb {
+    background-color: #f97416d7;
+    border-radius: 10px; 
+  }
+  
+ 
+  .scrollbar-thumb:hover {
+    background-color: #f96e0bdb; 
+  }
+  
