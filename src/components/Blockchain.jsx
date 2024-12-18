@@ -12,7 +12,7 @@ const Blockchain = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Last Registration: Dec. 20, 2024
+            Last Registration: December 28, 2024
           </p>
         </header>
 
@@ -39,8 +39,8 @@ const Blockchain = () => {
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li>White Paper Submission: December 28, 2024</li>
             <li>Finalist Announcement (Top 30 Teams): December 30, 2024</li>
-            <li>Last Date for Registration Payment: January 05, 2024</li>
-            <li>Final Submissions (Whitepaper, Pitch Deck, Presentation Video, Prototype): January 10, 2024</li>
+            <li>Last Date for Registration Payment: January 05, 2025</li>
+            <li>Final Submissions (Whitepaper, Pitch Deck, Presentation Video, Prototype): January 10, 2025</li>
           </ul>
         </section>
 

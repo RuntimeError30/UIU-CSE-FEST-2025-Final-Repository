@@ -28,7 +28,7 @@ const ICTolym = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> 5th January, 2024</li>
+            <li><strong>Registration Deadline:</strong> 5th January, 2025</li>
             <li><strong>Eligibility:</strong> College students</li>
             <li><strong>Registration Fee:</strong> 200 BDT</li>
           </ul>

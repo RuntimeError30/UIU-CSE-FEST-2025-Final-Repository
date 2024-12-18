@@ -32,7 +32,7 @@ const Soccorbot = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Procedure</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong>27 December, 2024</li>
+            <li><strong>Registration Deadline:</strong> 5th January, 2025</li>
             <li><strong>Eligibility:</strong> All undergraduate program students from public/private universities & college students are eligible to compete!</li>
             <li><strong>Registration Fee:</strong> 2000 BDT per team</li>
             <li><strong>Team Formation:</strong>  Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
