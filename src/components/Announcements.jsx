@@ -40,9 +40,26 @@ const Announcements = () => {
       details: `After signing up for the team, you will receive an email with a link. You can use this link to fill out the rest of the information. You can either complete it immediately or return later to finish the form. Any information you enter will be saved as a draft on the page, so you can easily come back and edit or submit it later.`,
       link: ' ',
     },
+
+        {
+      id: 5,
+      title: 'The registration deadline has been extended.',
+      date: 'December 17, 2024',
+      details: `We are pleased to announce the updated dates for the upcoming events:
+
+      Project Showcase, IUPC, Blockchain Olympiad:
+      Saturday, 28 December 2024
+
+      ICT Olympiad, Line Follower Robot (LFR), Robo Soccer:
+      Sunday, 5 January 2025
+
+      Thank you for your continued enthusiasm and participation. We look forward to seeing you at the events!`,
+      link: ' ',
+    },
   ];
 
   const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 5),
     announcements.find((announcement) => announcement.id === 4),
     announcements.find((announcement) => announcement.id === 3),
     announcements.find((announcement) => announcement.id === 2),
@@ -56,7 +73,7 @@ const Announcements = () => {
   return (
     <div id="announcements" className="w-full px-10 mt-40 min-h-screen font-robert-regular">
       <div className="text-start">
-        <h1 className='font-general text-xs mb-3'>uiu cse fest 2025</h1>
+        <h1 className='font-general text-xs mb-3'>UIU CSE FEST 2025</h1>
         <h1 className="bento-title special-font text-4xl">Announcements</h1>
       </div>
 
@@ -83,7 +100,7 @@ const Announcements = () => {
               {activeIndex === index && (
                 <>
                   <p className="text-sm text-gray-700 whitespace-pre-line">{announcement.details}</p>
-                  {announcement.id !== 3 && announcement.id !== 4 && (
+                  {announcement.id !== 3 && announcement.id !== 4 && announcement.id !== 5 && (
                     <a
                       href={announcement.link}
                       target="_blank"

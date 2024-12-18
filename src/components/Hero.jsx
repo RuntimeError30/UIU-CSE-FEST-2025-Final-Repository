@@ -104,11 +104,11 @@ const Hero = () => {
             alt="Hero Image"
           />
           {/* Placeholder image (e.g., logo or animated component) */}
-          <img
+          {/* <img
             src="img/retrpc.png"
             className="absolute w-20 sm:w-20 md:w-48 lg:w-56 xl:w-72 animate-float"
             alt="Logo"
-          />
+          /> */}
           {/* Button */}
           <div className="absolute bottom-20 w-full flex justify-center">
             <button
@@ -149,7 +149,7 @@ const Hero = () => {
         autoPlay
         onEnded={handleVideoEnd}
       >
-        <source src="/videos/promo.mp4" type="video/mp4" />
+        <source src="/videos/promo.webm" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

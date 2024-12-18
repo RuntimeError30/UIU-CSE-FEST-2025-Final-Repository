@@ -12,7 +12,7 @@ const Iupc = () => {
           </h1>
           <p className="text-lg font-robert-medium text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Last Registration: Dec. 20, 2024
+            Last Registration: December 28, 2024
           </p>
         </header>
 
@@ -31,9 +31,12 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Details</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Eligibility:</strong> Open to university students and IOI (International Olympiad in Informatics) students.
+            <li><strong>Eligibility:</strong>  Open to university students and IOI (International Olympiad in Informatics) students. 
             </li>
-            <li><strong>Teams:</strong>  120 teams will compete, with each team comprising 3 students + 1 coach.</li>
+            <li><strong>Teams:</strong>  150 teams will compete, with each team comprising 3 students + 1 coach.</li>
+
+            <li><strong>Problem Setters:</strong> The problem set will be designed by the Bangladesh Association of Problem Setters (BAPS), ensuring a fair and intellectually stimulating competition.</li>
+
             
           </ul>
         </section>
@@ -46,7 +49,7 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Timeline</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li>Registration Closes: December 20, 2024</li>
+            <li>Registration Closes: December 28, 2024</li>
             <li>Shortlisted Teams Announcement: December 30, 2024</li>
             <li>Last Date for Registration Payment: January 05, 2024</li>
             <li>Mock Contest: Friday, January 17, 2025</li>
