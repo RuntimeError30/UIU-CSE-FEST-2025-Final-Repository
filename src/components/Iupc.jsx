@@ -1,6 +1,7 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const Iupc = () => {
   return (
@@ -12,7 +13,7 @@ const Iupc = () => {
           </h1>
           <p className="text-lg font-robert-medium text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-          Registration Deadline: January 05, 2025
+          Registration Deadline: <RegistrationDeadline/>
           </p>
         </header>
 
@@ -49,7 +50,7 @@ const Iupc = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Timeline</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li>Registration Closes: December 28, 2024</li>
+            <li>Registration Closes: <RegistrationDeadline/></li>
             <li>Shortlisted Teams Announcement: December 30, 2024</li>
             <li>Last Date for Registration Payment: January 05, 2024</li>
             <li>Mock Contest: Friday, January 17, 2025</li>
