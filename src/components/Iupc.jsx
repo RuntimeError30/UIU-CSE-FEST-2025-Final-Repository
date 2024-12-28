@@ -51,8 +51,8 @@ const Iupc = () => {
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Event Timeline</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
             <li>Registration Closes: <RegistrationDeadline/></li>
-            <li>Shortlisted Teams Announcement: December 30, 2024</li>
-            <li>Last Date for Registration Payment: January 05, 2024</li>
+            <li>Shortlisted Teams Announcement: January 10, 2025</li>
+            <li>Last Date for Registration Payment: January 12, 2025</li>
             <li>Mock Contest: Friday, January 17, 2025</li>
             <li>Final Contest: Saturday, January 18, 2025</li>
           </ul>
