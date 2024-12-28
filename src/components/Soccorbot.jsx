@@ -16,7 +16,7 @@ const Soccorbot = () => {
           </p>
 
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: 5th January, 2025
+            Registration Deadline: January 05, 2025
           </p>
         </header>
 

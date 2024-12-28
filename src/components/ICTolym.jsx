@@ -12,7 +12,7 @@ const ICTolym = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">College</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Last Registration:  5th January, 2025
+          Registration Deadline: January 05, 2025
           </p>
         </header>
 

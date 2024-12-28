@@ -40,8 +40,7 @@ const Announcements = () => {
       details: `After signing up for the team, you will receive an email with a link. You can use this link to fill out the rest of the information. You can either complete it immediately or return later to finish the form. Any information you enter will be saved as a draft on the page, so you can easily come back and edit or submit it later.`,
       link: ' ',
     },
-
-        {
+    {
       id: 5,
       title: 'The registration deadline has been extended.',
       date: 'December 17, 2024',
@@ -56,9 +55,17 @@ const Announcements = () => {
       Thank you for your continued enthusiasm and participation. We look forward to seeing you at the events!`,
       link: ' ',
     },
+    {
+      id: 6,
+      title: 'Extended Registration Deadline for All Segments!',
+      date: 'December 28, 2024',
+      details: `The registration deadline for all segments has been extended to January 05, 2025. Don't miss this opportunity to participate. Register now and ensure your spot!`,
+      link: ' ',
+    },
   ];
 
   const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 6),
     announcements.find((announcement) => announcement.id === 5),
     announcements.find((announcement) => announcement.id === 4),
     announcements.find((announcement) => announcement.id === 3),
@@ -71,36 +78,47 @@ const Announcements = () => {
   };
 
   return (
-    <div id="announcements" className="w-full px-10 mt-40 min-h-screen font-robert-regular">
-      <div className="text-start">
-        <h1 className='font-general text-xs mb-3'>UIU CSE FEST 2025</h1>
-        <h1 className="bento-title special-font text-4xl">Announcements</h1>
-      </div>
-
-      <div className="mt-20 space-y-6">
-        {reorderedAnnouncements.map((announcement, index) => (
+    <div
+    id="announcements"
+    className="w-full px-10 mt-40 min-h-screen font-robert-regular"
+  >
+    <div className="text-start">
+      <h1 className="font-general text-xs mb-3">UIU CSE FEST 2025</h1>
+      <h1 className="bento-title special-font text-4xl">Announcements</h1>
+    </div>
+  
+    <div
+      className="mt-10 space-y-6 h-[60vh] overflow-y-auto rounded-lg p-4 md:p-8 border bg-gray-50 custom-scrollbar"
+    >
+      {reorderedAnnouncements.map((announcement, index) => (
+        <div
+          key={announcement.id}
+          className="p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-all border border-transparent hover:border-[#ff4701]"
+        >
           <div
-            key={announcement.id}
-            className="p-4 bg-gray-100 rounded-lg shadow hover:shadow-lg transition-all border border-transparent hover:border-[#ff4701]"
+            className="md:flex items-center justify-between cursor-pointer"
+            onClick={() => toggleDropdown(index)}
           >
-            <div
-              className="md:flex  items-center justify-between cursor-pointer"
-              onClick={() => toggleDropdown(index)}
-            >
-              <h1 className="font-robert-medium uppercase text-sm">
-                {announcement.title}
-              </h1>
-              <h1 className="text-xs text-gray-500">{announcement.date}</h1>
-            </div>
-
-            <div
-              className={`transition-all overflow-hidden ${activeIndex === index ? 'max-h-screen p-3' : 'max-h-0 p-0'
-                } bg-gray-50 border-l-4 border-[#ff4701] rounded mt-4`}
-            >
-              {activeIndex === index && (
-                <>
-                  <p className="text-sm text-gray-700 whitespace-pre-line">{announcement.details}</p>
-                  {announcement.id !== 3 && announcement.id !== 4 && announcement.id !== 5 && (
+            <h1 className="font-robert-medium uppercase text-sm">
+              {announcement.title}
+            </h1>
+            <h1 className="text-xs text-gray-500">{announcement.date}</h1>
+          </div>
+  
+          <div
+            className={`transition-all overflow-hidden ${
+              activeIndex === index ? 'max-h-screen p-3' : 'max-h-0 p-0'
+            } bg-gray-50 border-l-4 border-[#ff4701] rounded mt-4`}
+          >
+            {activeIndex === index && (
+              <>
+                <p className="text-sm text-gray-700 whitespace-pre-line">
+                  {announcement.details}
+                </p>
+                {announcement.id !== 3 &&
+                  announcement.id !== 4 &&
+                  announcement.id !== 5 &&
+                  announcement.id !== 6 && (
                     <a
                       href={announcement.link}
                       target="_blank"
@@ -110,13 +128,35 @@ const Announcements = () => {
                       Learn More
                     </a>
                   )}
-                </>
-              )}
-            </div>
+              </>
+            )}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
+  
+    <style >{`
+      /* Targeting WebKit-based browsers */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 1px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f0f0f0;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #ff4701;
+        border-radius: 10px;
+      }
+  
+      /* For Firefox */
+      .custom-scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: #ff4701 #f0f0f0;
+      }
+    `}</style>
+  </div>
+  
+  
   );
 };
 
