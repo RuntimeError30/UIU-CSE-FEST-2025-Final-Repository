@@ -62,9 +62,17 @@ const Announcements = () => {
       details: `The registration deadline for all segments has been extended to January 05, 2025. Don't miss this opportunity to participate. Register now and ensure your spot!`,
       link: ' ',
     },
+    {
+      id: 7,
+      title: 'ICT Olympiad Deadline Extended!',
+      date: 'January 02, 2025',
+      details: 'The ICT Olympiad registration deadline is now January 10, 2025. Register now and ensure your spot!',
+      link: ' ',
+    },
   ];
 
   const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 7),
     announcements.find((announcement) => announcement.id === 6),
     announcements.find((announcement) => announcement.id === 5),
     announcements.find((announcement) => announcement.id === 4),
@@ -118,7 +126,8 @@ const Announcements = () => {
                 {announcement.id !== 3 &&
                   announcement.id !== 4 &&
                   announcement.id !== 5 &&
-                  announcement.id !== 6 && (
+                  announcement.id !== 6 &&
+                  announcement.id !== 7 && (
                     <a
                       href={announcement.link}
                       target="_blank"
