@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Organizers = () => {
   return (
@@ -53,6 +53,7 @@ const Organizers = () => {
         <div className="flex flex-wrap justify-center items-center gap-5 mt-4">
           <img src="img/southeastbank.png" className="w-16 sm:w-28 md:w-32 lg:w-32 opacity-90" alt="Southeast Bank" />
         </div>
+       
       </div>
 
       </div>

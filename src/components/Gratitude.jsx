@@ -10,7 +10,7 @@ const Gratitude = () => {
   //const smoothScrollContainer = useRef(null);
 
   // useEffect(() => {
-    
+
   //   const scrollbar = Scrollbar.init(smoothScrollContainer.current, {
   //     damping: 0.08, 
   //     thumbMinSize: 20, 
@@ -18,7 +18,7 @@ const Gratitude = () => {
   //     alwaysShowTracks: false,
   //   });
 
-    
+
   //   ScrollTrigger.scrollerProxy(smoothScrollContainer.current, {
   //     scrollTop(value) {
   //       return arguments.length ? (scrollbar.scrollTop = value) : scrollbar.scrollTop;
@@ -34,7 +34,7 @@ const Gratitude = () => {
   //     pinType: smoothScrollContainer.current.style.transform ? "transform" : "fixed",
   //   });
 
-    
+
   //   ScrollTrigger.batch(sections.current, {
   //     scroller: smoothScrollContainer.current,
   //     start: "top 85%",
@@ -53,11 +53,11 @@ const Gratitude = () => {
   //     },
   //   });
 
-    
+
   //   ScrollTrigger.addEventListener("refresh", () => scrollbar.update());
   //   ScrollTrigger.refresh();
 
-   
+
   //   return () => {
   //     ScrollTrigger.removeEventListener("refresh", () => scrollbar.update());
   //     scrollbar.destroy();
@@ -84,13 +84,13 @@ const Gratitude = () => {
       start: "top 85%",
     });
   }, []);
-  
+
   return (
     //ref={smoothScrollContainer} style={{ height: "100vh", overflow: "hidden" }} 
     <div className="min-h-screen  bg-black text-white font-sans">
-       
+
       <main className="container mx-auto px-4 py-12">
-      
+
         <h1 className="font-zentry text-4xl md:text-5xl mt-10 font-bold text-center mb-4 text-orange-500">
           Meet Our Amazing Team
         </h1>
@@ -287,7 +287,7 @@ const Gratitude = () => {
                 imageSrc="/img/sraban.jpg"
               />
             </div> */}
-            
+
             {/* <div ref={(el) => (sections.current[17] = el)}>
               <TeamMember
                 name="Faria Rakib Borsha"
@@ -340,7 +340,7 @@ const Gratitude = () => {
               />
             </div>
 
-           
+
             <div ref={(el) => (sections.current[19] = el)}>
               <TeamMember
                 name="Ahmed Junaed"
@@ -387,6 +387,154 @@ const Gratitude = () => {
                 imageSrc="/img/neha.jpg"
               />
             </div>
+          </div>
+        </section>
+
+        {/* Event & Logistic team */}
+        <section className="mb-16">
+          <h2 className="font-zentry text-3xl font-bold text-center mb-8 text-orange-500"> Event & Logistic Team</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5  gap-8">
+            <div ref={(el) => (sections.current[24] = el)}>
+              <TeamMember
+                name="Md. Zahidul Islam Tomal"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Lead"
+                subRole="Joint Secretary, UIU Computer Club"
+                imageSrc="/img/TanvirTomal.jpeg"
+              />
+            </div>
+
+            <div ref={(el) => (sections.current[25] = el)}>
+              <TeamMember
+                name="Ahmed Muniamel Muntakim Hossain"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Computer Club"
+                imageSrc="/img/ahmed-Munaimel.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[26] = el)}>
+              <TeamMember
+                name="Hamim"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Robotics Club"
+                imageSrc="/img/hamim.jpeg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[27] = el)}>
+              <TeamMember
+                name="Sharmin Sultana Liza"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Associate of Media & Communication Department, UIU App Forum"
+                imageSrc="/img/liza.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[28] = el)}>
+              <TeamMember
+                name="Nahiyan Ahmed"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive of Event Management, UIU Computer Club"
+                imageSrc="/img/nahiyan-ifti.jpg"
+              />
+            </div>
+
+            <div ref={(el) => (sections.current[29] = el)}>
+              <TeamMember
+                name="Omayer Islam"
+                link={`https://www.facebook.com/omayer.isl`}
+                role="Event & Logistic Member"
+                subRole="Head of Event Management, UIU App Forum"
+                imageSrc="/img/omayer.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[30] = el)}>
+              <TeamMember
+                name="Md.Golam Alahi Mim"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Deputy Head Of Event Management, UIU Computer Club"
+                imageSrc="/img/md-golam-alahi.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[31] = el)}>
+              <TeamMember
+                name="MAHARAB HOSSAIN"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Organizing Secretary, UIU App Forum"
+                imageSrc="/img/maharab.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[32] = el)}>
+              <TeamMember
+                name="Mahmudul Hasan Abir"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive of Event Management, UIU Computer Club"
+                imageSrc="/img/Mahmudul-Hasan-abir.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[33] = el)}>
+              <TeamMember
+                name="Radwanul Islam Nayeem"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Head of Event Management, UIU Computer Club"
+                imageSrc="/img/radwanul-islam-nayeem.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[34] = el)}>
+              <TeamMember
+                name="Md. Ammar Hossain"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Head of Human Resources, UIU App Forum"
+                imageSrc="/img/ammar.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[35] = el)}>
+              <TeamMember
+                name="Md Khaled Hasan Milu"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="MEMBER, UIU Robotics Club"
+                imageSrc="/img/khaled-hasan-milu.png"
+              />
+            </div>
+            <div ref={(el) => (sections.current[36] = el)}>
+              <TeamMember
+                name="Tanjila Tafrim Priyonta"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Robotics Club"
+                imageSrc="/img/tanjila-tafrim-priyonti.jpeg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[37] = el)}>
+              <TeamMember
+                name="Atkia Fayrose Prity"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Robotics Club"
+                imageSrc="/img/atika-fayrose-prity.jpg"
+              />
+            </div>
+
+            <div ref={(el) => (sections.current[38] = el)}>
+              <TeamMember
+                name="Sumiya Akter Subarna"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="MEMBER, UIU Robotics Club"
+                imageSrc="/img/sumaiya-akter-subrana.jpg"
+              />
+            </div>
+
+
+
           </div>
         </section>
       </main>

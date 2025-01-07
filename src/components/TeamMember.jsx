@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 const TeamMember = ({ name, role, subRole, imageSrc, link }) => {
