@@ -69,9 +69,18 @@ const Announcements = () => {
       details: 'The ICT Olympiad registration deadline is now January 10, 2025. Register now and ensure your spot!',
       link: ' ',
     },
+    {
+      id: 8,
+      title: "Registration Closed for IUPC, Blockchain, Project Show, LFR, and Soccer Bot",
+      date: "January 07, 2025",
+      details: "Registration for IUPC, Blockchain, Project Show, LFR (Line Following Robot), and Soccer Bot is now closed.",
+      link: ""
+    }
+    
   ];
 
   const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 8),
     announcements.find((announcement) => announcement.id === 7),
     announcements.find((announcement) => announcement.id === 6),
     announcements.find((announcement) => announcement.id === 5),
@@ -127,7 +136,8 @@ const Announcements = () => {
                   announcement.id !== 4 &&
                   announcement.id !== 5 &&
                   announcement.id !== 6 &&
-                  announcement.id !== 7 && (
+                  announcement.id !== 7 &&
+                  announcement.id !== 8 && (
                     <a
                       href={announcement.link}
                       target="_blank"

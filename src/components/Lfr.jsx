@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const Lfr = () => {
@@ -39,13 +39,13 @@ const Lfr = () => {
             </li>
           </ul>
           <div>
-            <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/LRF" target="blank">
+            {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/LRF" target="blank"> */}
               <Button
-                title="Register Now"
+                title="Registration is now closed"
                 leftIcon={<TiLocationArrow />}
                 containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
               />
-            </Link>
+            {/* </Link> */}
           </div>
         </section>
 

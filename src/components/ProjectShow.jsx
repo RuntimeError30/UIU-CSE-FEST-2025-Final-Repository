@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const ProjectShow = () => {
@@ -144,13 +144,13 @@ const ProjectShow = () => {
 
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
-            <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/PS" target="blank">
+            {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/PS" target="blank"> */}
               <Button
-                title="Register Now"
+                title="Registration is now closed"
                 leftIcon={<TiLocationArrow />}
                 containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
               />
-            </Link>
+            {/* </Link> */}
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
