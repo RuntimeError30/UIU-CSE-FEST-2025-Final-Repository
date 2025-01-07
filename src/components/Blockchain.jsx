@@ -13,7 +13,7 @@ const Blockchain = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-          Registration Deadline: <RegistrationDeadline/>
+            Registration Deadline: <RegistrationDeadline />
           </p>
         </header>
 
@@ -38,7 +38,7 @@ const Blockchain = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Key Deadlines</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li>White Paper Submission: <RegistrationDeadline/></li>
+            <li>White Paper Submission: <RegistrationDeadline /></li>
             <li>Finalist Announcement (Top 30 Teams): January 10, 2025</li>
             <li>Last Date for Registration Payment: January 12, 2025</li>
             <li>Final Submissions (Whitepaper, Pitch Deck, Presentation Video, Prototype): January 14, 2025</li>
@@ -53,10 +53,10 @@ const Blockchain = () => {
             <li><strong>Project Registration and Submission:</strong> One Team, One Project. Each team may submit only one project.</li>
             <li><strong>Primary Evaluation:</strong> Based on the submitted white paper.</li>
             <li><span className="text-orange-500 font-bold">Please submit a white paper detailing your project, adhering to the following guidelines:</span> <br />
-                <span className="font-bold">Page Limit:</span> Maximum of 20 pages. <br />
-                <span className="font-bold">Format:</span> Submit the document in PDF format only. <br />
-                <spac className="font-bold">Content:</spac> The white paper should include comprehensive details of your project, including objectives, methodology, expected outcomes and potential impact. <br />
-                This white paper will serve as the primary basis for the initial evaluation of your project. <br />
+              <span className="font-bold">Page Limit:</span> Maximum of 20 pages. <br />
+              <span className="font-bold">Format:</span> Submit the document in PDF format only. <br />
+              <spac className="font-bold">Content:</spac> The white paper should include comprehensive details of your project, including objectives, methodology, expected outcomes and potential impact. <br />
+              This white paper will serve as the primary basis for the initial evaluation of your project. <br />
             </li>
             <li><strong>Final Evaluation:</strong> Finalists will submit a whitepaper, poster, pitch deck, presentation video, and prototype (optional).</li>
           </ul>
@@ -95,18 +95,27 @@ const Blockchain = () => {
             The Inter-University Blockchain Olympiad 2025 is more than a competition—it’s an opportunity to drive innovation and impact within the blockchain field. Register your team, innovate, and compete for prestige, recognition, and exciting cash prizes. Let’s shape the future of technology together!
           </p>
         </section>
+        {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/BCO" target="blank"> */}
 
-        <section className="mb-8">
-          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
+        <section className="mb-8 relative">
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">
+            Registration Link
+          </h2>
 
-            {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/BCO" target="blank"> */}
-              <Button
-                title="Registration is now closed"
-                leftIcon={<TiLocationArrow />}
-                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
-              />
-            {/* </Link> */}
+          <div className="group relative inline-block">
+            <Button
+              title="Registration is now closed"
+              leftIcon={<TiLocationArrow />}
+              containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+            />
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-lg px-3 py-1">
+              Registration is closed
+            </div>
+          </div>
         </section>
+
+
+
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">For any queries</h2>

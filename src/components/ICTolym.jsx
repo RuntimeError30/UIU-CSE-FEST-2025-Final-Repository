@@ -23,6 +23,8 @@ const ICTolym = () => {
 
             The <strong> ICT Olympiad</strong> offers a unique opportunity for college students to enhance their knowledge and appreciation of Information and Communication Technology (ICT). The primary goal is to spark a passion for science and technology among young minds, motivating them to excel in the field. This competition is designed to cultivate curiosity, and creativity, providing an engaging and interactive experience that encourages students to discover the vast potential within ICT.
 
+            <strong> Students from the HSC Batch of 2024 are also eligible to participate in the ICT Olympiad.</strong>
+
           </p>
         </section>
 

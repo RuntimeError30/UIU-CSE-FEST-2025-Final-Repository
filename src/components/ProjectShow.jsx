@@ -142,15 +142,22 @@ const ProjectShow = () => {
 
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration Link</h2>
             {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/PS" target="blank"> */}
-              <Button
-                title="Registration is now closed"
-                leftIcon={<TiLocationArrow />}
-                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
-              />
-            {/* </Link> */}
+            <section className="mb-8 relative">
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">
+            Registration Link
+          </h2>
+
+          <div className="group relative inline-block">
+            <Button
+              title="Registration is now closed"
+              leftIcon={<TiLocationArrow />}
+              containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+            />
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-lg px-3 py-1">
+              Registration is closed
+            </div>
+          </div>
         </section>
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-inner mt-8">

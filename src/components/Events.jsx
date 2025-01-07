@@ -38,7 +38,7 @@ const BentoTilt = ({ children, className = '' }) => {
     );
 };
 
-const BentoCard = ({ src, title, description, category, eventLink }) => {
+const BentoCard = ({ src, title, description, category, eventLink, isRegistrationOpen }) => {
     return (
         <div className="relative h-full w-full overflow-visible">
             <video
@@ -58,12 +58,12 @@ const BentoCard = ({ src, title, description, category, eventLink }) => {
                         <p className="mt-2 text-sm md:text-base">
                             {description}
                         </p>
-                        <p className="mt-3 text-orange-500">
-                            Registration is Open Now
+                        <p className={`mt-3 ${isRegistrationOpen ? 'text-green-500' : 'text-orange-500'}`}>
+                            Registration is {isRegistrationOpen ? 'now open!' : 'now closed'}
                         </p>
                     </div>
                 )}
-                <div className=" flex justify-center">
+                <div className="flex justify-center">
                     <Link to={eventLink}>
                         <Button
                             title="Event Information"
@@ -76,8 +76,6 @@ const BentoCard = ({ src, title, description, category, eventLink }) => {
         </div>
     );
 };
-
-
 
 const Events = () => {
     return (
@@ -104,6 +102,7 @@ const Events = () => {
                         description=" "
                         category="University"
                         eventLink="/iupc"
+                        isRegistrationOpen={false}
                     />
                 </BentoTilt>
 
@@ -120,6 +119,7 @@ const Events = () => {
                             description=" "
                             category="University"
                             eventLink="/blockchain"
+                            isRegistrationOpen={false}
                         />
                     </BentoTilt>
 
@@ -130,6 +130,7 @@ const Events = () => {
                             description=" "
                             category="College"
                             eventLink="/ict-olympiad"
+                            isRegistrationOpen={true}
                         />
                     </BentoTilt>
 
@@ -140,6 +141,7 @@ const Events = () => {
                             description=" "
                             category="University"
                             eventLink="/project-show"
+                            isRegistrationOpen={false}
                         />
                     </BentoTilt>
 
@@ -150,6 +152,7 @@ const Events = () => {
                             description=" "
                             category="College & University"
                             eventLink="/lfr"
+                            isRegistrationOpen={false}
                         />
                     </BentoTilt>
 
@@ -160,6 +163,7 @@ const Events = () => {
                             description=" "
                             category="College & University"
                             eventLink="/soccer-bot"
+                            isRegistrationOpen={false}
                         />
                     </BentoTilt>
                 </div>
@@ -169,3 +173,4 @@ const Events = () => {
 };
 
 export default Events;
+

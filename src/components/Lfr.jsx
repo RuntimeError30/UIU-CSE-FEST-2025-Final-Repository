@@ -38,15 +38,23 @@ const Lfr = () => {
             <li><strong>Team Formation:</strong> Teams of up to 5 members; each participant can only join one team of a segment, i.e. a participant cannot be in two teams that are competing in the same segment.
             </li>
           </ul>
-          <div>
             {/* <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/LRF" target="blank"> */}
-              <Button
-                title="Registration is now closed"
-                leftIcon={<TiLocationArrow />}
-                containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
-              />
-            {/* </Link> */}
+            <section className="mb-8 relative">
+          <h2 className="text-xl font-zentry font-semibold text-orange-600">
+            Registration Link
+          </h2>
+
+          <div className="group relative inline-block">
+            <Button
+              title="Registration is now closed"
+              leftIcon={<TiLocationArrow />}
+              containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
+            />
+            <div className="absolute left-1/2 transform -translate-x-1/2 top-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-lg px-3 py-1">
+              Registration is closed
+            </div>
           </div>
+        </section>
         </section>
 
         <section className="mb-8">
