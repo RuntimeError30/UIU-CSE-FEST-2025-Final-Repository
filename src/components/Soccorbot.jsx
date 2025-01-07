@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const Soccorbot = () => {
@@ -46,15 +46,17 @@ const Soccorbot = () => {
           <h2 className="text-xl font-zentry font-semibold text-orange-600">
             Registration Link
           </h2>
-
+          {/* Registration is now closed */}
           <div className="group relative inline-block">
+          <Link to="https://ecom2.uiu.ac.bd/csefest/signup/team/ROBO" target="blank">
             <Button
-              title="Registration is now closed"
+              title="Registration  now "
               leftIcon={<TiLocationArrow />}
               containerClass="bg-orange-500 flex w-40 px-3 py-3 mt-3 rounded-full text-black text-xs md:text-xs items-center"
             />
+            </Link>
             <div className="absolute left-1/2 transform -translate-x-1/2 top-[-40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-lg px-3 py-1">
-              Registration is closed
+              Registration is open
             </div>
           </div>
         </section>

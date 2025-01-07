@@ -152,7 +152,7 @@ const Events = () => {
                             description=" "
                             category="College & University"
                             eventLink="/lfr"
-                            isRegistrationOpen={false}
+                            isRegistrationOpen={true}
                         />
                     </BentoTilt>
 
@@ -163,7 +163,7 @@ const Events = () => {
                             description=" "
                             category="College & University"
                             eventLink="/soccer-bot"
-                            isRegistrationOpen={false}
+                            isRegistrationOpen={true}
                         />
                     </BentoTilt>
                 </div>

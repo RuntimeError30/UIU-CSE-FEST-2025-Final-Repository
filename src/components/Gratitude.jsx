@@ -336,7 +336,7 @@ const Gratitude = () => {
                 link={`https://www.facebook.com/mdnaimurrahman.navil?mibextid=ZbWKwL`}
                 role="Outreach and Engagement Member"
                 subRole="Head of R & D, Programing wing, UIU Computer Club"
-                imageSrc="/img/naimur3.jpg"
+                imageSrc="/img/naimur4.jpg"
               />
             </div>
 

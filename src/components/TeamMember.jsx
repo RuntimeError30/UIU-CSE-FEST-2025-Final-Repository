@@ -10,7 +10,7 @@ const TeamMember = ({ name, role, subRole, imageSrc, link }) => {
           <img
             src={imageSrc}
             alt={name}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            className="w-full h-full aspect-square object-cover transition-transform duration-300 group-hover:scale-110"
           />
         </div>
         <h3 className="font-zentry text-2xl font-bold text-orange-500">

@@ -71,9 +71,9 @@ const Announcements = () => {
     },
     {
       id: 8,
-      title: "Registration Closed for IUPC, Blockchain, Project Show, LFR, and Soccer Bot",
+      title: "Registration Closed for IUPC, Blockchain,and  Project Show",
       date: "January 07, 2025",
-      details: "Registration for IUPC, Blockchain, Project Show, LFR (Line Following Robot), and Soccer Bot is now closed.",
+      details: "Registration for IUPC, Blockchain,and  Project Show is now closed.",
       link: ""
     }
     

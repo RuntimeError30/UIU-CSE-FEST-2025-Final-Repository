@@ -53,8 +53,45 @@ const Organizers = () => {
         <div className="flex flex-wrap justify-center items-center gap-5 mt-4">
           <img src="img/southeastbank.png" className="w-16 sm:w-28 md:w-32 lg:w-32 opacity-90" alt="Southeast Bank" />
         </div>
+        <div className="flex flex-wrap justify-center items-center gap-5 mt-8 ">
+          <img src="img/therap.png" className="w-16 sm:w-28 md:w-32 lg:w-32 opacity-90" alt="Therap BD Ltd" />
+        </div>
        
       </div>
+
+      </div>
+      {/* media partner section */}
+      <div className='mt-32'>
+        <div>
+          <h1 className="font-general text-xs sm:text-sm md:text-xs lg:text-xs text-center">
+            UIU CSE FEST 2025
+          </h1>
+          <h1 className="bento-title special-font text-4xl sm:text-2xl md:text-3xl lg:text-4xl text-center mt-2">
+            <b>E</b>vent <b>M</b>edia Partner
+          </h1>
+        </div>
+      {/* Organized By Section */}
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
+          <img src="img/jamuna.png" className=" w-28 lg:w-36" alt="Jamuna " />
+          <img src="img/dailyCampus.png" className=" w-28 lg:w-36" alt="daily Campus" />
+          <img src="img/bonikBarta.png" className="  w-28 lg:w-36" alt="bonik Barta " />
+        </div>
+
+      </div>
+      {/* photography and promotion partner section */}
+      <div className='mt-32'>
+        <div>
+          <h1 className="font-general text-xs sm:text-sm md:text-xs lg:text-xs text-center">
+            UIU CSE FEST 2025
+          </h1>
+          <h1 className="bento-title special-font  text-xl md:text-3xl lg:text-4xl text-center mt-2">
+            <b>E</b>vent <b>P</b>hotography and Promotion Partner
+          </h1>
+        </div>
+      {/* Organized By Section */}
+      <div className="flex flex-wrap justify-center items-center gap-5 mt-4">
+          <img src="img/uiuPC.png" className="w-16  md:w-28 opacity-90" alt="UIU Photography club" />
+        </div>
 
       </div>
     </div>
