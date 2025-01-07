@@ -71,6 +71,13 @@ const Announcements = () => {
     },
     {
       id: 8,
+      title: 'LFR (Line Following Robot), and Soccer Bot Registration Deadline Extended!',
+      date: 'January 05, 2025',
+      details: 'LFR (Line Following Robot), and Soccer Bot registration deadline is now January 10, 2025. Register now and ensure your spot!',
+      link: ' ',
+    },
+    {
+      id: 9,
       title: "Registration Closed for IUPC, Blockchain,and  Project Show",
       date: "January 07, 2025",
       details: "Registration for IUPC, Blockchain,and  Project Show is now closed.",
@@ -80,6 +87,7 @@ const Announcements = () => {
   ];
 
   const reorderedAnnouncements = [
+    announcements.find((announcement) => announcement.id === 9),
     announcements.find((announcement) => announcement.id === 8),
     announcements.find((announcement) => announcement.id === 7),
     announcements.find((announcement) => announcement.id === 6),
@@ -137,7 +145,8 @@ const Announcements = () => {
                   announcement.id !== 5 &&
                   announcement.id !== 6 &&
                   announcement.id !== 7 &&
-                  announcement.id !== 8 && (
+                  announcement.id !== 8 &&
+                  announcement.id !== 9 && (
                     <a
                       href={announcement.link}
                       target="_blank"

@@ -3,7 +3,7 @@
 const RegistrationDeadline = () => {
     return (
         <>
-            January 05, 2025
+            January 10, 2025
         </>
     );
 };

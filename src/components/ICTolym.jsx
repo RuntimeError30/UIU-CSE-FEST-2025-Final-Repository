@@ -1,6 +1,7 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 
 const ICTolym = () => {
@@ -13,7 +14,7 @@ const ICTolym = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">College</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-          Registration Deadline: January 10, 2025
+          Registration Deadline: <RegistrationDeadline/>
           </p>
         </header>
 
@@ -31,7 +32,7 @@ const ICTolym = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> January 10, 2025</li>
+            <li><strong>Registration Deadline:</strong> <RegistrationDeadline/></li>
             <li><strong>Eligibility:</strong> College students</li>
             <li><strong>Registration Fee:</strong> 200 BDT</li>
           </ul>
