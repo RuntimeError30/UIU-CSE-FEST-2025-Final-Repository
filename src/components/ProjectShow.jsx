@@ -1,7 +1,7 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 // import { Link } from "react-router-dom";
-import RegistrationDeadline from "./Dates/RegistrationDeadline";
+// import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const ProjectShow = () => {
   return (
@@ -13,7 +13,7 @@ const ProjectShow = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University Students and Recent Graduates</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-          Registration Deadline: <RegistrationDeadline/>
+          Registration Deadline: January 05, 2025
           </p>
         </header>
 
@@ -27,7 +27,7 @@ const ProjectShow = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Registration</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li><strong>Registration Deadline:</strong> <RegistrationDeadline/></li>
+            <li><strong>Registration Deadline:</strong> January 05, 2025</li>
             <li><strong>Eligibility:</strong> Open to university students and recent graduates in Bangladesh (graduated within the past year)</li>
             <li><strong>Registration Fee:</strong> 1500 BDT per team</li>
             <li><strong>Team Formation:</strong> Teams of 3 to 5 members; each participant can only join one team</li>

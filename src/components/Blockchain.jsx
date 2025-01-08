@@ -1,7 +1,7 @@
 import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 // import { Link } from "react-router-dom";
-import RegistrationDeadline from "./Dates/RegistrationDeadline";
+// import RegistrationDeadline from "./Dates/RegistrationDeadline";
 
 const Blockchain = () => {
   return (
@@ -13,7 +13,7 @@ const Blockchain = () => {
           </h1>
           <p className="text-lg text-gray-600 mt-2">University</p>
           <p className="text-lg font-semibold text-gray-700 mt-2">
-            Registration Deadline: <RegistrationDeadline />
+            Registration Deadline: January 05, 2025
           </p>
         </header>
 
@@ -38,7 +38,7 @@ const Blockchain = () => {
         <section className="mb-8">
           <h2 className="text-xl font-zentry font-semibold text-orange-600">Key Deadlines</h2>
           <ul className="list-disc pl-5 text-gray-700 mt-4">
-            <li>White Paper Submission: <RegistrationDeadline /></li>
+            <li>White Paper Submission: January 05, 2025</li>
             <li>Finalist Announcement (Top 30 Teams): January 10, 2025</li>
             <li>Last Date for Registration Payment: January 12, 2025</li>
             <li>Final Submissions (Whitepaper, Pitch Deck, Presentation Video, Prototype): January 14, 2025</li>
