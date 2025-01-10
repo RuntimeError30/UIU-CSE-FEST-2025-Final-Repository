@@ -278,15 +278,7 @@ const Gratitude = () => {
                 imageSrc="/img/shudipto.jpg"
               />
             </div>
-            {/* <div ref={(el) => (sections.current[15] = el)}>
-              <TeamMember
-                name="S. M. Saraban Tohura"
-                link={`www.linkedin.com/in/saraban-tohura`}
-                role="Media & Communication Member"
-                subRole="Secretary of PR, UIU Robotics Club"
-                imageSrc="/img/sraban.jpg"
-              />
-            </div> */}
+            
 
             
 
@@ -294,7 +286,7 @@ const Gratitude = () => {
         </section>
         <section className="mb-16">
           <h2 className="font-zentry text-3xl font-bold text-center mb-8 text-orange-500">Outreach and Engagement Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5  gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-8">
             <div ref={(el) => (sections.current[15] = el)}>
               <TeamMember
                 name="Samiul Haque Rudra"
@@ -388,6 +380,15 @@ const Gratitude = () => {
                 imageSrc="/img/borsha.jpg"
               />
             </div>
+            <div ref={(el) => (sections.current[25] = el)}>
+              <TeamMember
+                name="S. M. Saraban Tohura Prokrity"
+                link={`https://www.linkedin.com/in/saraban-tohura`}
+                role="Outreach and Engagement Member"
+                subRole="Secretary of PR, UIU Robotics Club"
+                imageSrc="/img/sraban.jpg"
+              />
+            </div>
           </div>
         </section>
 
@@ -395,7 +396,7 @@ const Gratitude = () => {
         <section className="mb-16">
           <h2 className="font-zentry text-3xl font-bold text-center mb-8 text-orange-500"> Event & Logistic Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5  gap-8">
-            <div ref={(el) => (sections.current[25] = el)}>
+            <div ref={(el) => (sections.current[26] = el)}>
               <TeamMember
                 name="Md. Zahidul Islam Tomal"
                 link={`https://www.facebook.com/`}
@@ -405,7 +406,7 @@ const Gratitude = () => {
               />
             </div>
 
-            <div ref={(el) => (sections.current[26] = el)}>
+            <div ref={(el) => (sections.current[27] = el)}>
               <TeamMember
                 name="Ahmed Muniamel Muntakim Hossain"
                 link={`https://www.facebook.com/`}
@@ -414,7 +415,7 @@ const Gratitude = () => {
                 imageSrc="/img/ahmed-Munaimel.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[27] = el)}>
+            <div ref={(el) => (sections.current[28] = el)}>
               <TeamMember
                 name="Hamim"
                 link={`https://www.facebook.com/`}
@@ -423,7 +424,7 @@ const Gratitude = () => {
                 imageSrc="/img/hamim.jpeg"
               />
             </div>
-            <div ref={(el) => (sections.current[28] = el)}>
+            <div ref={(el) => (sections.current[29] = el)}>
               <TeamMember
                 name="Sharmin Sultana Liza"
                 link={`https://www.facebook.com/`}
@@ -432,7 +433,7 @@ const Gratitude = () => {
                 imageSrc="/img/liza.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[29] = el)}>
+            <div ref={(el) => (sections.current[30] = el)}>
               <TeamMember
                 name="Nahiyan Ahmed"
                 link={`https://www.facebook.com/`}
@@ -442,7 +443,7 @@ const Gratitude = () => {
               />
             </div>
 
-            <div ref={(el) => (sections.current[30] = el)}>
+            <div ref={(el) => (sections.current[31] = el)}>
               <TeamMember
                 name="Omayer Islam"
                 link={`https://www.facebook.com/omayer.isl`}
@@ -451,7 +452,7 @@ const Gratitude = () => {
                 imageSrc="/img/omayer.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[31] = el)}>
+            <div ref={(el) => (sections.current[32] = el)}>
               <TeamMember
                 name="Md.Golam Alahi Mim"
                 link={`https://www.facebook.com/`}
@@ -460,7 +461,7 @@ const Gratitude = () => {
                 imageSrc="/img/md-golam-alahi.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[32] = el)}>
+            <div ref={(el) => (sections.current[33] = el)}>
               <TeamMember
                 name="MAHARAB HOSSAIN"
                 link={`https://www.facebook.com/`}
@@ -469,7 +470,7 @@ const Gratitude = () => {
                 imageSrc="/img/maharab.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[33] = el)}>
+            <div ref={(el) => (sections.current[34] = el)}>
               <TeamMember
                 name="Mahmudul Hasan Abir"
                 link={`https://www.facebook.com/`}
@@ -478,7 +479,7 @@ const Gratitude = () => {
                 imageSrc="/img/Mahmudul-Hasan-abir.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[34] = el)}>
+            <div ref={(el) => (sections.current[35] = el)}>
               <TeamMember
                 name="Radwanul Islam Nayeem"
                 link={`https://www.facebook.com/`}
@@ -487,7 +488,7 @@ const Gratitude = () => {
                 imageSrc="/img/radwanul-islam-nayeem.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[35] = el)}>
+            <div ref={(el) => (sections.current[36] = el)}>
               <TeamMember
                 name="Md. Ammar Hossain"
                 link={`https://www.facebook.com/`}
@@ -496,7 +497,7 @@ const Gratitude = () => {
                 imageSrc="/img/ammar.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[36] = el)}>
+            <div ref={(el) => (sections.current[37] = el)}>
               <TeamMember
                 name="Md Khaled Hasan Milu"
                 link={`https://www.facebook.com/`}
@@ -505,7 +506,7 @@ const Gratitude = () => {
                 imageSrc="/img/khaled-hasan-milu.png"
               />
             </div>
-            <div ref={(el) => (sections.current[37] = el)}>
+            <div ref={(el) => (sections.current[38] = el)}>
               <TeamMember
                 name="Tanjila Tafrim Priyonta"
                 link={`https://www.facebook.com/`}
@@ -514,7 +515,7 @@ const Gratitude = () => {
                 imageSrc="/img/tanjila-tafrim-priyonti.jpeg"
               />
             </div>
-            <div ref={(el) => (sections.current[38] = el)}>
+            <div ref={(el) => (sections.current[39] = el)}>
               <TeamMember
                 name="Atkia Fayrose Prity"
                 link={`https://www.facebook.com/`}
@@ -524,7 +525,7 @@ const Gratitude = () => {
               />
             </div>
 
-            <div ref={(el) => (sections.current[39] = el)}>
+            <div ref={(el) => (sections.current[40] = el)}>
               <TeamMember
                 name="Sumiya Akter Subarna"
                 link={`https://www.facebook.com/`}
