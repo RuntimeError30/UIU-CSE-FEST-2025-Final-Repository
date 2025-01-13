@@ -405,63 +405,7 @@ const Gratitude = () => {
                 imageSrc="/img/TanvirTomal.jpeg"
               />
             </div>
-
             <div ref={(el) => (sections.current[27] = el)}>
-              <TeamMember
-                name="Ahmed Muniamel Muntakim Hossain"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Executive, UIU Computer Club"
-                imageSrc="/img/ahmed-Munaimel.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[28] = el)}>
-              <TeamMember
-                name="Hamim"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Executive, UIU Robotics Club"
-                imageSrc="/img/hamim.jpeg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[29] = el)}>
-              <TeamMember
-                name="Sharmin Sultana Liza"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Associate of Media & Communication Department, UIU App Forum"
-                imageSrc="/img/liza.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[30] = el)}>
-              <TeamMember
-                name="Nahiyan Ahmed"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Executive of Event Management, UIU Computer Club"
-                imageSrc="/img/nahiyan-ifti.jpg"
-              />
-            </div>
-
-            <div ref={(el) => (sections.current[31] = el)}>
-              <TeamMember
-                name="Omayer Islam"
-                link={`https://www.facebook.com/omayer.isl`}
-                role="Event & Logistic Member"
-                subRole="Head of Event Management, UIU App Forum"
-                imageSrc="/img/omayer.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[32] = el)}>
-              <TeamMember
-                name="Md.Golam Alahi Mim"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Deputy Head Of Event Management, UIU Computer Club"
-                imageSrc="/img/md-golam-alahi.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[33] = el)}>
               <TeamMember
                 name="MAHARAB HOSSAIN"
                 link={`https://www.facebook.com/`}
@@ -470,25 +414,17 @@ const Gratitude = () => {
                 imageSrc="/img/maharab.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[34] = el)}>
+            <div ref={(el) => (sections.current[28] = el)}>
               <TeamMember
-                name="Mahmudul Hasan Abir"
+                name="Sharmin Sultana Liza"
                 link={`https://www.facebook.com/`}
                 role="Event & Logistic Member"
-                subRole="Executive of Event Management, UIU Computer Club"
-                imageSrc="/img/Mahmudul-Hasan-abir.jpg"
+                subRole="Associate of Media & Communication Department, UIU App Forum"
+                imageSrc="/img/liza.jpg"
               />
             </div>
-            <div ref={(el) => (sections.current[35] = el)}>
-              <TeamMember
-                name="Radwanul Islam Nayeem"
-                link={`https://www.facebook.com/`}
-                role="Event & Logistic Member"
-                subRole="Head of Event Management, UIU Computer Club"
-                imageSrc="/img/radwanul-islam-nayeem.jpg"
-              />
-            </div>
-            <div ref={(el) => (sections.current[36] = el)}>
+            
+            <div ref={(el) => (sections.current[29] = el)}>
               <TeamMember
                 name="Md. Ammar Hossain"
                 link={`https://www.facebook.com/`}
@@ -497,6 +433,74 @@ const Gratitude = () => {
                 imageSrc="/img/ammar.jpg"
               />
             </div>
+            <div ref={(el) => (sections.current[30] = el)}>
+              <TeamMember
+                name="Omayer Islam"
+                link={`https://www.facebook.com/omayer.isl`}
+                role="Event & Logistic Member"
+                subRole="Head of Event Management, UIU App Forum"
+                imageSrc="/img/omayer.jpg"
+              />
+            </div>
+
+            <div ref={(el) => (sections.current[31] = el)}>
+              <TeamMember
+                name="Ahmed Muniamel Muntakim Hossain"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Computer Club"
+                imageSrc="/img/ahmed-Munaimel.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[32] = el)}>
+              <TeamMember
+                name="Hamim"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive, UIU Robotics Club"
+                imageSrc="/img/hamim.jpeg"
+              />
+            </div>
+         
+            <div ref={(el) => (sections.current[33] = el)}>
+              <TeamMember
+                name="Nahiyan Ahmed"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive of Event Management, UIU Computer Club"
+                imageSrc="/img/nahiyan-ifti.jpg"
+              />
+            </div>
+           
+            <div ref={(el) => (sections.current[34] = el)}>
+              <TeamMember
+                name="Md.Golam Alahi Mim"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Deputy Head Of Event Management, UIU Computer Club"
+                imageSrc="/img/md-golam-alahi.jpg"
+              />
+            </div>
+           
+            <div ref={(el) => (sections.current[35] = el)}>
+              <TeamMember
+                name="Mahmudul Hasan Abir"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Executive of Event Management, UIU Computer Club"
+                imageSrc="/img/Mahmudul-Hasan-abir.jpg"
+              />
+            </div>
+            <div ref={(el) => (sections.current[36] = el)}>
+              <TeamMember
+                name="Radwanul Islam Nayeem"
+                link={`https://www.facebook.com/`}
+                role="Event & Logistic Member"
+                subRole="Head of Event Management, UIU Computer Club"
+                imageSrc="/img/radwanul-islam-nayeem.jpg"
+              />
+            </div>
+           
             <div ref={(el) => (sections.current[37] = el)}>
               <TeamMember
                 name="Md Khaled Hasan Milu"
