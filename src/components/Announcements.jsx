@@ -204,7 +204,56 @@ const Announcements = () => {
       date: "January 12, 2025",
       "details": "Speed, precision, and innovation take center stage in the **Line Follower Robot (LFR) Competition! 🏎️**\n\nDoes your bot have what it takes to conquer the track and race against time? Show off your engineering brilliance in this electrifying challenge!\n\n🎯 **Event Date:** 17th January 2025\n📍 **Venue:** UIU Campus\n✅ **Latest Rulebook:** [View Here]( https://drive.google.com/file/d/1D5w2dNIEqajjtulirjNNQfPPQaCARp8s/view?fbclid=IwZXh0bgNhZW0CMTAAAR27_TFrKA3NMcdm0hhsWZfrWttvfg6yXOP8hcsXE8vU9p2xUAbypO8XXZg_aem_shaXJu2djH0I6E5WbHIYSg )\n\n💬 Stay tuned for updates!\n\n𝐄𝐯𝐞𝐧𝐭 𝐋𝐢𝐧𝐤: [UIU CSE Fest 2025 Event]( https://www.facebook.com/events/1718740695336417/ )\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞: **UIU CSE FEST 2025**",
       link:''
-    }
+    },
+    {
+      id: 27,
+      title: 'Event Schedule for UIU CSE Fest 2025 has been published!',
+      date: "January 17, 2025",
+      details: 'Click on Learn More to see the detailed schedule of all the events, competitions, and activities happening at UIU CSE Fest 2025!',
+      link: './documents/schedule.pdf',
+    },
+    {
+      id: 28,
+      title: "Congratulations to the Winners of the ICT Olympiad at UIU CSE Fest 2025!",
+      date: "January 17, 2025",
+      details: "In honor of the grand celebrations at UIU CSE Fest 2025, the gifts of such amazing talents have demonstrated their brilliance and earned this superlative achievement. Your dedication and hard work will make it even more memorable, and we are excited to see how you continue to shine and achieve greatness in the future! Every one of you is an achiever because all have crossed the difficult 50% passing mark of the total score—a feat to be truly proud of and worth celebrating! 🏆🎉 Your hard work and brilliance made this event memorable. 👏 Thank you for being an essential part of UIU CSE Fest 2025, and here is to your continued success!",
+      link: "./documents/Winner-List-ICT.png"
+    },
+    // {
+    //   id: 29,
+    //   title: "Congratulations to the Winners of UIUIUPC at UIU CSE Fest 2025!",
+    //   date: "January 18, 2025",
+    //   details: "The UIU Inter-University Programming Contest (UIUIUPC) has showcased the brilliance and problem-solving skills of talented individuals across the nation. Your outstanding performance and logical thinking have set a benchmark for excellence. Achieving the difficult challenge of solving problems under intense pressure is commendable. Thank you for being a vital part of UIUIUPC 2025 and making it extraordinary!",
+    //   link: "./documents/uiuiupc-winners.pdf"
+    // },
+    // {
+    //   id: 30,
+    //   title: "Congratulations to the Winners of the Inter-University Blockchain Olympiad 2025!",
+    //   date: "January 18, 2025",
+    //   details: "The Inter-University Blockchain Olympiad 2025 has highlighted groundbreaking ideas and exceptional talent in blockchain technology. Your innovative solutions and hard work have truly made a difference. Crossing the challenging threshold of understanding and applying blockchain concepts is an achievement in itself. Thank you for contributing to the success of Blockchain Olympiad 2025 and shaping the future of technology!",
+    //   link: "./documents/blockchain-winners.pdf"
+    // },
+    // {
+    //   id: 31,
+    //   title: "Congratulations to the Winners of the Project Show at UIU CSE Fest 2025!",
+    //   date: "January 18, 2025",
+    //   details: "The Project Show at UIU CSE Fest 2025 showcased incredible creativity, engineering, and innovation. Your projects stood out for their brilliance, impact, and ingenuity. Your dedication and creativity in presenting unique projects have been truly inspiring. Thank you for being a part of this incredible showcase and for making it so impactful!",
+    //   link: "./documents/project-show-winners.pdf"
+    // },
+    // {
+    //   id: 32,
+    //   title: "Congratulations to the Winners of LFR-TrackBots at UIU CSE Fest 2025!",
+    //   date: "January 18, 2025",
+    //   details: "The Line Following Robot (LFR) TrackBots Competition pushed the boundaries of robotics and innovation. Your precision, creativity, and engineering skills amazed everyone. Designing, building, and programming robots to excel on challenging tracks is no small feat. Thank you for making LFR-TrackBots 2025 a grand success!",
+    //   link: "./documents/lfr-trackbots-winners.pdf"
+    // },
+    // {
+    //   id: 33,
+    //   title: "Congratulations to the Winners of ROBO SOCCER-Whistle Mania at UIU CSE Fest 2025!",
+    //   date: "January 18, 2025",
+    //   details: "The ROBO SOCCER-Whistle Mania Competition showcased unparalleled innovation and teamwork in robotics. Your robots' strategy, agility, and performance in the field were awe-inspiring. Developing robots to play soccer with finesse and precision is an extraordinary accomplishment. Thank you for being an essential part of ROBO SOCCER 2025 and for showcasing the future of robotics in action!",
+    //   link: "./documents/robo-soccer-winners.pdf"
+    // }
     
     
     
@@ -279,7 +328,7 @@ const Announcements = () => {
                   {announcement.link && (
                     <a
                       href={announcement.link}
-                      target="_blank"
+                      target="blank"
                       rel="noopener noreferrer"
                       className="text-[#ff4701] hover:text-[#e64001] text-sm underline mt-2 block"
                     >

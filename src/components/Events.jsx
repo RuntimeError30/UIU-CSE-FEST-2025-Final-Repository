@@ -130,7 +130,7 @@ const Events = () => {
                             description=" "
                             category="College"
                             eventLink="/ict-olympiad"
-                            isRegistrationOpen={true}
+                            isRegistrationOpen={false}
                         />
                     </BentoTilt>
 
